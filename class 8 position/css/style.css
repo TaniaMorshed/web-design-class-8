@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+
+    width:1140px;
+    margin: auto;
+   
+}
+.header{
+    background: skyblue;
+    height:80px;
+    line-height: 80px;
+}
+.menu_main{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+ font-family: 'Dancing Script', cursive;
+    color: white;
+    display: block;
+    padding: 0px 26px;
+    font size: 16px;
+    transform: all linear .8sec;
+}
+.nav a:hover{
+     background: yellow;
+     color: brown;
+}
+.nav .fb{
+    color: #3b5998;
+ 
+}
+.nav .fb:hover{
+    background: #3b5998;
+    color:antiquewhite;
+      
+}
+.nav .messenger{
+    color: 	#006AFF;
+}
+.nav .messenger:hover{
+    background:#006AFF;
+    color:antiquewhite;
+      
+}
+.nav .email{
+    color:#B23121;
+}
+.nav .email:hover{
+    background:#B23121;
+    color:antiquewhite;
+      
+}
+.icon{
+   
+ /* Here is the change Start */
+    overflow: hidden;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   /* end */
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+
+}
+/* Here is the change Start */
+.icon a {
+    font-size: 30px;
+}
+/* Here is the change Start */
+
+.logo {
+    color: red;
+    display: block;
+    font-size: 50px;
+    padding: 0px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.logo a:hover{
+     background:blueviolet;
+     color:white;
+      
+}
+
+.drop{
+    position: relative;
+}
+.down{ 
+    position: absolute;
+    top: 100px;
+    left:0;
+    background: yellow;
+    visibility: hidden;
+}
+
+.dorp: hover .down{
+    visibility: visible;
+    opacity: 1;
+    top: 80px;
+}
+
+
+
+
